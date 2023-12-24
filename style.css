@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/113/829/non_2x/aesthetic-cute-pastel-blue-abstract-minimal-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-and-banner-vector.jpg);
+}
+
+.calculator {
+    width: 300px;
+    background-color: #0b98e4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.calculator-screen {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+    font-size: 1.5em;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+.btn {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border: 1px solid #343a40;
+    background-color: #495057;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-light {
+    background-color: #adb5bd;
+}
+
+.btn:hover {
+    background-color: #868e96;
+}
